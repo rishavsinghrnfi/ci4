@@ -1,0 +1,33 @@
+CRITICAL - 2021-03-24 11:41:35 --> Declaration of App\Filters\OauthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-24 11:42:05 --> Declaration of App\Filters\OauthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-24 11:42:14 --> Declaration of App\Filters\OauthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-24 12:31:44 --> Trait 'App\Controllers\api\v1\ResponseTrait' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-24 12:32:52 --> Trait 'App\Controllers\api\v1\ResponseTrait' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-24 12:38:46 --> Call to undefined method App\Controllers\api\v1\Login::fail()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\api\v1\Login->register()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Login))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 12:38:57 --> Call to undefined method App\Controllers\api\v1\Login::fail()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\api\v1\Login->register()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Login))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 12:38:58 --> Call to undefined method App\Controllers\api\v1\Login::fail()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\api\v1\Login->register()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\v1\Login))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

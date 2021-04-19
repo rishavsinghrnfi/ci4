@@ -1,0 +1,12 @@
+CRITICAL - 2021-03-22 03:04:31 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->index()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 03:04:38 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->index()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

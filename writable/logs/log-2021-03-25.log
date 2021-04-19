@@ -1,0 +1,111 @@
+CRITICAL - 2021-03-25 13:50:13 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:50:17 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:50:29 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:51:03 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:52:02 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:52:11 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:52:36 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 13:53:17 --> Call to undefined method App\Controllers\User::getKey()
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:12:32 --> Call to a member function request_headers() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:13:01 --> Call to a member function request_headers() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:13:20 --> Call to a member function request_headers() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:13:57 --> Call to a member function request_headers() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:14:44 --> Too few arguments to function CodeIgniter\HTTP\Message::getHeader(), 0 passed in C:\xampp\htdocs\ci4\app\Controllers\User.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(64): CodeIgniter\HTTP\Message->getHeader()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-25 14:15:01 --> Too few arguments to function CodeIgniter\HTTP\Message::getHeader(), 0 passed in C:\xampp\htdocs\ci4\app\Controllers\User.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(64): CodeIgniter\HTTP\Message->getHeader()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-25 14:15:15 --> Too few arguments to function CodeIgniter\HTTP\Message::getHeader(), 0 passed in C:\xampp\htdocs\ci4\app\Controllers\User.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(64): CodeIgniter\HTTP\Message->getHeader()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->validateUser()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-25 14:17:20 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:18:07 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-25 14:18:14 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

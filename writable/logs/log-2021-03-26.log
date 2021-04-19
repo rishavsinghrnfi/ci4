@@ -1,0 +1,244 @@
+CRITICAL - 2021-03-26 01:40:13 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 01:40:37 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 01:40:38 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 02:21:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:21:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:21:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:21:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:21:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:21:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:21:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 202, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 02:22:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci4\app\Views\welcome_message.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Home.php(7): view('welcome_message')
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 07:58:37 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 07:59:04 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:00:18 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:00:19 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:00:22 --> Expired token
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(128): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'my_application_...', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 08:00:23 --> Expired token
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(128): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'my_application_...', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 08:00:23 --> Expired token
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(128): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'my_application_...', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 08:00:37 --> Expired token
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(128): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'my_application_...', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 08:00:40 --> Expired token
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(128): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'my_application_...', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 08:01:01 --> Expired token
+#0 C:\xampp\htdocs\ci4\app\Controllers\User.php(128): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'my_application_...', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 08:01:04 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:01:05 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:01:51 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:01:52 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:08:46 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:09:10 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:14:38 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:14:39 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:14:44 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:14:57 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:15:26 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-26 08:18:15 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->userDetails()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
